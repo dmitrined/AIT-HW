@@ -1,0 +1,45 @@
+.project {
+  background-color: rgb(176, 176, 250);
+}
+
+h1,
+h2 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+.content {
+  font-style: italic;
+}
+
+ol  li {
+  font-style: normal;
+  font-weight: bold;
+}
+
+span {
+  font-style: italic;
+  font-weight: normal;
+  background-color: rgb(129, 157, 234);
+}
+
+ul {
+  background-color: rgb(168, 165, 165);
+  display: inline-block;
+}
+
+ul  li {
+  font-weight: normal;
+}
+
+.end a {
+  padding: 10px;
+  background-color: blue;
+  text-decoration: none;
+  font-style: normal;
+  color: wheat;
+}
