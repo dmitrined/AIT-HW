@@ -1,0 +1,53 @@
+body {
+  font-family: "TikTok Sans", sans-serif;
+  background-color: gainsboro;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.header img {
+  width: 100px;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: black;
+}
+.nav a{
+   margin: 15px;
+  color: white;
+}
+
+.nav a:hover{
+  font-size: 1.2em;
+}
+.tasks li {
+  list-style: none;
+}
+
+.tasks a:link {
+  color: black;
+  width: 15%;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+ 
+}
+
+.tasks a:visited {
+ color: gray;
+}
+
+.tasks a:hover {
+  font-size: 1.2em;
+  background-color: black;
+  color:white;
+}
