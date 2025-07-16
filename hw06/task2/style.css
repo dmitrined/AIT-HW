@@ -5,13 +5,13 @@ body {
 }
 .main {
     width: 800px;
-    height: auto;
+    height: 800px;
     margin: auto;
-    background-color:white;
+    background-color: lightblue;
 }
 
 .checkerboard{
-   margin: auto;
+    margin: auto;
     width: 600px;
     height: 600px;
     position: relative;
