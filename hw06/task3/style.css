@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(204, 214, 190);
+  margin: 0;
+}
+.main {
+  border-top: 1px solid lightblue;
+  width: 1200px;
+  height: 900px;
+  margin: auto;
+  background-color: lightblue;
+}
+
+.hero {
+  width: 100%;
+}
+.hero * {
+  padding-left: 50px;
+}
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+  color: brown;
+  margin: 0;
+  margin-bottom: -40px;
+}
+
+.header-msg {
+  padding-top: 30px;
+  background-color: rgba(255, 235, 205, 0.6);
+  font-size: 1.2em;
+  color: brown;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.date {
+  color: gray;
+  text-align: center;
+}
+
+.news {
+  background-color: aliceblue;
+  height: 300px;
+  width: 500px;
+  padding: 10px;
+}
+.news_conteiner {
+    position: relative;
+    display: block;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+#news1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#news2 {
+  position: absolute;
+  top: 0;
+  left: 550px;
+}
+
+#news3 {
+  position: absolute;
+  top: 350px;
+  left: 0; 
+}
+
+#news4 {
+  position: absolute;
+  top: 350px;
+  left: 550px;
+}
+
+.tag {
+  text-transform: uppercase;
+  color: blue;
+  text-align: left;
+  font-weight: 200;
+  font-size: 0.7em;
+}
+
+.news h3 {
+  margin: 5px;
+  padding-left: 50px;
+  font-family: "Exo 2", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+.time {
+  text-align: right;
+  color: gray;
+  font-size: 0.7em;
+  margin-top: 20px;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.news a:hover h3 {
+  text-decoration: underline;
+  text-decoration-color: brown;
+}
+
+.tasks {
+  text-align: center;
+  padding: 20px;
+}
+
+.tasks a {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+#task3 {
+    color: red;
+}
+
+.tasks a:hover {
+  background-color: rgb(206, 227, 245);
+  color: aliceblue;
+}

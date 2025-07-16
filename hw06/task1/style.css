@@ -91,6 +91,10 @@ a{
   background-color: aliceblue;
 }
 
+#task1 {
+    color: red;
+}
+
 .tasks a:hover {
 background-color: rgb(206, 227, 245);
 color: aliceblue;
