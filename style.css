@@ -2,6 +2,13 @@ body {
   font-family: "TikTok Sans", sans-serif;
   background-color: gainsboro;
 }
+.main {
+  background-color: aliceblue;
+  width: 900px;
+  height: 100ev;
+  margin: auto;
+  box-shadow: 2px 2px 5px blue;
+}
 
 
 a {
@@ -15,10 +22,11 @@ a {
 
 .header {
   display: flex;
-  justify-content: start;
   align-items: center;
   background-color: black;
   box-shadow: 2px 2px 5px blue;
+  justify-content: center;
+  
 }
 .header a {
   font-weight: 100;
@@ -42,7 +50,7 @@ h1 {
 }
 .tasks {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .tasks li {
@@ -71,4 +79,8 @@ h1 {
   font-size: 1.2em;
   background-color: rgb(84, 84, 228);
   color: white;
+}
+
+#github {
+  color: black;
 }
