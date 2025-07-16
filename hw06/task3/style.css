@@ -42,9 +42,10 @@ h1 {
 
 .news {
   background-color: aliceblue;
-  height: 300px;
+  height: 250px;
   width: 500px;
   padding: 10px;
+  margin: 0;
 }
 .news_conteiner {
     position: relative;
@@ -67,13 +68,13 @@ h1 {
 
 #news3 {
   position: absolute;
-  top: 350px;
+  top: 300px;
   left: 0; 
 }
 
 #news4 {
   position: absolute;
-  top: 350px;
+  top: 300px;
   left: 550px;
 }
 
