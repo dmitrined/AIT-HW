@@ -44,7 +44,12 @@ h1 {
   background-color: aliceblue;
   margin: 10px;
   padding: 10px;
-  height: auto;
+  height: 70px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  
 }
 .tag {
   text-transform: uppercase;
@@ -65,7 +70,9 @@ h1 {
   text-align: right;
   color: gray;
   font-size: 0.7em;
-  margin-top: 20px;
+ position: absolute;
+    right: 18px;
+    bottom: 7px;
 }
 
 a {
