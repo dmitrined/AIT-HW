@@ -1,0 +1,165 @@
+
+body {
+  margin: 0 auto;
+}
+
+.main {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header {
+  width: 1200px;
+  height: 120px;
+  top:0;
+  left: auto;
+  background-color: rgb(11, 60, 102);
+  position: fixed;
+  z-index: 1;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(182, 223, 236);
+  padding: 30px;
+}
+
+.header p {
+  padding: 0 40px;
+  margin: 0;
+  border-left: 2px solid white;
+}
+
+.logo img {
+  border-radius: 20px;
+  width: 150px;
+  height: 90px;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.menu {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.info {
+  padding-top: 120px;
+}
+
+.info img {
+  width: 50%;
+  height: 40%;
+}
+
+.info_text p {
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+.info_text h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-weight: 200;
+  margin: 0;
+}
+
+.info_text {
+  font-size: 35px;
+  color: rgb(11, 60, 102);
+  text-align: justify;
+  padding: 25px;
+  padding-bottom: 0;
+}
+
+.projects_img {
+  display: flex;
+  justify-content: start;
+  padding-left: 25px;
+}
+
+.projects_img img {
+  width: 350px;
+  height: 250px;
+  padding: 15px;
+}
+
+.projects {
+  background-color: rgb(182, 223, 236);
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+
+.projects h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+
+  color: rgb(11, 60, 102);
+  padding: 25px 40px;
+  margin: 0;
+}
+
+.contakts {
+  background-color: rgb(11, 60, 102);
+  color: rgb(182, 223, 236);
+  height: 200px;
+}
+
+.contakts h3 {
+  padding: 0 50px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+
+}
+
+.contakts_info {
+  padding: 30px;
+}
+
+.contakts_info_item p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.tel {
+  padding: 0 60px;
+  border-left: 2px solid rgb(182, 223, 236);
+  border-right: 2px solid rgb(182, 223, 236);
+}
+
+.tasks {
+  text-align: center;
+  padding: 20px;
+  height: 300px;
+}
+
+.tasks a {
+    text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+#task2 {
+  color: red;
+}
+
+.tasks a:hover {
+    font-size: 1.2em;
+}
