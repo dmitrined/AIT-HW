@@ -33,7 +33,7 @@ body {
 .header p {
   padding: 0 40px;
   margin: 0;
-  border-left: 2px solid white;
+  border-left: 2px solid rgb(182, 223, 236);
 }
 
 .logo img {
@@ -153,7 +153,6 @@ body {
   margin: 10px;
   border-style: solid;
   border-radius: 10px;
-  background-color: aliceblue;
 }
 
 #task2 {
