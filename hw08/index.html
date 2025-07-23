@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="#" method="get">
+            <h1>Форма обратной связи</h1>
+            <fieldset>
+                <legend>Как с вами связаться</legend>
+                <div>
+                    <label for="name">Имя: <br></label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email: <br></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="tel">Телефон: <br></label>
+                    <input type="tel" name="tel" id="tel" required>
+                </div>
+                <fieldset>
+                    <legend>Данные контракта</legend>
+                    <div>
+                        <label for="data">Дата: <br></label>
+                        <input type="date" name="data" id="data" placeholder="дд.мм.гггг">
+                    </div>
+
+                    <div>
+                        <label for="number">Номер: <br></label>
+                        <input type="text" name="number" id="number" placeholder="K/289/13">
+                    </div>
+                </fieldset>
+            </fieldset>
+            <div>
+                <label>Оцените наш сервис: <br>
+                    <input type="radio" id="good" name="service_rating" value="Хорошо">
+                    <label for="good">Хорошо <br></label>
+
+                    <input type="radio" id="satisfactory" name="service_rating" value="Удовлетворительно">
+                    <label for="satisfactory">Удовлетворительно <br></label>
+
+                    <input type="radio" id="bad" name="service_rating" value="Плохо">
+                    <label for="bad">Плохо</label>
+                </label>
+            </div>
+            <div>
+                <label>Какие каналы связи вы предпочитаете? <br>
+                    <input type="checkbox" id="pref_email" name="preferred_channels[]" value="Email">
+                    <label for="pref_email">Email <br></label>
+
+                    <input type="checkbox" id="pref_phone" name="preferred_channels[]" value="Телефон">
+                    <label for="pref_phone">Телефон <br></label>
+
+                    <input type="checkbox" id="pref_messengers" name="preferred_channels[]" value="Мессенджеры">
+                    <label for="pref_messengers">Мессенджеры</label>
+                </label>
+            </div>
+            <div>
+                <label>Как часто используете наш сервис? <br>
+                    <input type="radio" id="first_time" name="usage_frequency" value="Первый раз">
+                    <label for="first_time">Первый раз <br></label>
+
+                    <input type="radio" id="sometimes" name="usage_frequency" value="Иногда">
+                    <label for="sometimes">Иногда <br></label>
+
+                    <input type="radio" id="often" name="usage_frequency" value="Часто">
+                    <label for="often">Часто</label>
+                </label>
+            </div>
+            <div>
+                <label for="topic">Тема обращения: <br></label>
+                <select id="topic" name="topic">
+                    <option value="Вопрос">Вопрос</option>
+                    <option value="Предложение">Предложение</option>
+                    <option value="Жалоба">Жалоба</option>
+                    <option value="Техническая поддержка">Техническая поддержка</option>
+                    <option value="Другое">Другое</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Сообщение: <br></label>
+                <textarea id="message" rows="6" cols="60" name="message"
+                    placeholder="Напишите ваше сообщение здесь..."></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="privacy_consent" name="privacy_consent" required>
+                <label for="privacy_consent">Даю согласие на обработку персональных данных</label>
+            </div>
+
+            <div>
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
