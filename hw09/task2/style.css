@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+   font-family: "TikTok Sans", sans-serif;
+}
+
+.main {
+  width: 900px;
+  margin: auto;
+}
+
+.header {
+  width: 900px;
+  height: 120px;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(209, 204, 204);
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  background-color: rgb(209, 204, 204);
+
+}
+
+.header a:hover {
+  color: gray;
+  border-bottom: 1px solid gray;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search img {
+    width: 20px;
+}
+
+.search {
+    display: flex;
+    border-left: 2px solid black;
+    padding: 0 10px;
+
+}
+
+.search input{
+outline: none;
+border-radius: 8px;
+
+}
+
+.home_img img {
+  width: 900px;
+  height: 400px;
+  padding-top: 120px;
+}
+
+.about_us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about_us img {
+  width: 450px;
+  height: 400px;
+}
+
+.about_us_text {
+  padding: 0 15px;
+}
+
+.about_us h1 {
+  text-transform: uppercase;
+    
+}
+
+.about_us h1,
+.about_us p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.wines_content {
+  background-color: rgb(161, 177, 162);
+
+}
+
+.main h2 {
+    padding: 15px;
+  text-transform: uppercase;
+}
+
+.wines img {
+  width: 270px;
+  height: 270px;
+  padding-bottom: 10px;
+}
+
+.about_us img:hover,
+.wines img:hover {
+  border-radius: 50%;
+}
+
+.wines {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+      background-color: rgb(209, 204, 204);
+      height: 150px;
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.phone {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0 30px;
+
+   
+}
