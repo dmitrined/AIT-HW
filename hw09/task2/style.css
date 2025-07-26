@@ -57,6 +57,10 @@ border-radius: 8px;
 
 }
 
+.home_img {
+  height: 400px;
+}
+
 .home_img img {
   width: 900px;
   height: 400px;
