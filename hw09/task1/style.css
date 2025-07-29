@@ -1,37 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
 }
-
-.main{
-width: 900px;
-margin: auto;
-margin-top: 50px;
-background-color: whitesmoke;
+body {
+   background-color: whitesmoke;
  font-family: "TikTok Sans", sans-serif;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
+
 .card_line{
+    width: 80%;
+margin: auto;
 display: flex;
-justify-content: space-between;
-margin: 15px;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 210px;
-    height: 330px;
+    width: 20%;
+    border: 1px solid rgb(20, 20, 78);
     border-radius: 15px;
     background-color: cadetblue;
     padding: 10px;
+    min-width: 170px;
 }
 
 .card  img{
- width: 200px;
- height: 150px;
+ width: 100%;
  border-radius: 50%;
+ border: 1px solid rgb(20, 20, 78);
+ margin: auto;
 }
 
 .card h3 {
