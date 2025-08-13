@@ -3,28 +3,29 @@
 let arr = [15, 81, 9, "hello", "world", 42, 7, "JavaScript"];
 let newArr = [];
 
-for (let element of arr) {
-  if (typeof element === "string") {
-    newArr.push(element);
+for (let i=0; i<arr.length; i++) {
+  if (typeof arr[i] === "string") {
+    newArr.push(arr[i]);
   }
 }
 console.log(newArr);
 
 //Task 2: Немного усложним задачу. Создайте массив, но в этот раз в массиве будут числа и строки и массивы с числами и строками. Ваша задача написать код, который создаст новый массив в который поместит все строки из исходного массива и строки из всех массивов входящих в исходный.
 let complexArray = [15, 81, 9, "hello", ["world", 42], 7, ["JavaScript", "is", "fun"]];
-let newComplexArray = [];
-for (let element of complexArray) {
-  if (typeof element === "string") {
-    newComplexArray.push(element);
-  } else if (Array.isArray(element)) {
-    for (let subElement of element) {
-      if (typeof subElement === "string") {
-        newComplexArray.push(subElement);
+let newComplexArr = []; 
+for (let i = 0; i < complexArray.length; i++) {
+  if (typeof complexArray[i] === "string") {
+    newComplexArr.push(complexArray[i]);
+  } else if (Array.isArray(complexArray[i])) {    
+    for (let j = 0; j < complexArray[i].length; j++) {
+      if (typeof complexArray[i][j] === "string") {
+        newComplexArr.push(complexArray[i][j]);
       }
     }
   }
 }
-console.log(newComplexArray); 
+console.log(newComplexArr); 
+
 
 
 
