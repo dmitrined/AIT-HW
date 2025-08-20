@@ -18,23 +18,20 @@ function enterString() {
 }
 
 function enterList() {
-
+    const ol = document.createElement("ol");
     while (true) {
-        const userInput = prompt("Введите строку для спимка и нажмите OK (или нажмите Отмена для завершения):");
+        const userInput = prompt("Введите строку для спиcка и нажмите OK (или нажмите Отмена для завершения):");
         if (userInput === null) {
             break;
         }
         if (userInput.trim() === "") {
-            return enterList();
+            continue;
         }
-        const ol = document.createElement("ol");
         const li = document.createElement("li");
         li.textContent = userInput;
         ol.appendChild(li);
-        container.appendChild(ol);
     }
-    return userInput;
-
+        container.appendChild(ol);
 }
 
 
