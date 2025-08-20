@@ -7,7 +7,7 @@ enterString();
 enterList();
 
 function enterString() {
-    const userInput = prompt("Введите строку для заголовка страницы:");
+    const userInput = prompt("Введите название списка:");
     if (userInput === null || userInput.trim() === "") {
         return enterString();
     }
@@ -21,11 +21,8 @@ function enterList() {
     const ol = document.createElement("ol");
     while (true) {
         const userInput = prompt("Введите строку для спиcка и нажмите OK (или нажмите Отмена для завершения):");
-        if (userInput === null) {
+        if (userInput === null || userInput.trim() === "") {
             break;
-        }
-        if (userInput.trim() === "") {
-            return enterList();
         }
         const li = document.createElement("li");
         li.textContent = userInput;
