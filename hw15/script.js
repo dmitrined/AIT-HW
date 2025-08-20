@@ -20,27 +20,21 @@ const product1 = {
     name: "Notebook Lenovo ThinkPad",
     description: "CPU Intel Core i7, RAM 16GB, SSD 512GB",
     price: 1283,
-    info: function () {
-        return `Товар: ${this.name}; цена: ${this.price}; описание: ${this.description}`;
-    },
+    info: infoFunction
 };
 
 const product2 = {
     name: "Smartphone Samsung Galaxy S21",
     description: '6.2" AMOLED, 128GB Storage, 8GB RAM',
     price: 799,
-    info: function () {
-        return `Товар: ${this.name}; цена: ${this.price}; описание: ${this.description}`;
-    },
+    info: infoFunction
 };
 
 const product3 = {
     name: "Tablet Apple iPad Pro",
     description: '12.9" Liquid Retina, A12Z Bionic, 256GB Storage',
     price: 1099,
-    info: function () {
-        return `Товар: ${this.name}; цена: ${this.price}; описание: ${this.description}`;
-    },
+    info: infoFunction
 };
 
 // b
@@ -48,10 +42,11 @@ function Product(name, description, price) {
     this.name = name;
     this.description = description;
     this.price = price;
-    this.info = function () {
+    this.info = infoFunction;
+}
+function infoFunction () {
         return `Товар: ${this.name}; цена: ${this.price}; описание: ${this.description}`;
     };
-}
 const products = [
     new Product(
         "Notebook Lenovo ThinkPad",
