@@ -25,7 +25,7 @@ function enterList() {
             break;
         }
         if (userInput.trim() === "") {
-            continue;
+            return enterList();
         }
         const li = document.createElement("li");
         li.textContent = userInput;
