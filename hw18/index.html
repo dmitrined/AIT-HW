@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW18</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <h1>Lesson home work 18</h1>
-    <h2>Задача 1</h2>
-    <p>Ваша задача реализовать форму в которой будет 3 поля: имя, фамилия, email нажатие кнопки в этой форме должно
-        добавлять пользователя в список на странице.
-        Обратите внимание на следующий момент: кнопка ок в форме, по умолчанию, перезагружает страницу. Что бы этого
-        избежать preventDefault()</p>
+    <header>
+        <h1>Lesson Home Work 18</h1>
+        <h2>Задача 1</h2>
+        <p>Ваша задача реализовать форму с тремя полями: имя, фамилия, email. Нажатие на кнопку должно добавлять пользователя в список на странице. Чтобы кнопка не перезагружала страницу, используйте метод <code>preventDefault()</code>.</p>
+    </header>
 
-    <div class="form">
-        <div>
-            <label for="first_name">Имя: <br></label>
-            <input type="text" name="first_name" id="first_name" required>
-        </div>
-        <div>
-            <label for="last_name">Фамилия: <br></label>
-            <input type="text" name="last_name" id="last_name" required>
-        </div>
-        <div>
-            <label for="email">Email: <br></label>
-            <input type="email" name="email" id="email" required>
-        </div>
-        <div>
-            <button type="submit">OK</button>
-        </div>
-    </div>
+    <main>
+        <form class="form">
+            <div class="form-group">
+                <label for="first_name">Имя</label>
+                <input type="text" name="first_name" id="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Фамилия</label>
+                <input type="text" name="last_name" id="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="btn">Ok</button>
+            </div>
+        </form>
 
+        <section class="user-list">
+            <h3>Список пользователей:</h3>
+        </section>
+    </main>
 
 </body>
 
