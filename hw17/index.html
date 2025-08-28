@@ -1,54 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./script.js" defer></script>
-    <title>HW17</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
 </head>
-
 <body>
-
-    <div id="task1">
-        <h1>Lesson Home work 17</h1>
-        <h2>Задача 1</h2>
-        <p id="text_p1">Создайте простейшую страницу, на которой будет 2 кнопки и какой-то текст.
-            Сделайте так, чтобы по нажатию на первую кнопку текст становился большим,
-            а по нажатию на вторую кнопку снова нормальным.
-        </p>
-
-
-
-        <button id="btn_large">Сделать большим</button>
-        <button id="btn_normal">Сделать нормальным</button>
-
-        <p id="text_p2">Если хотите чуть сложнее: кнопка одна и первое нажатие увеличивает текст.
-            Второе уменьшает
-        </p>
-        <button id="btn_universal">Сделать большим</button>
-
+    <div id="gameArea">
+        <div id="player"></div>
     </div>
-
-
-    <div id="task2">
-        <h2>Задача 2</h2>
-        <p>Создайте примерно такую страничку :
-        </p>
-        <div id="display">
-         <div id="object1">
-         </div>
-        </div>
-       <div class="buttons_t2">
-        <button>вверх</button>
-        <button>вниз</button>
-        <button>вправо</button>
-        <button>влево</button>
-       </div>
-        <p>Ваша задача, чтобы при нажатие на кнопки, желтый блок двигался в нужном направление. (подсказка: вспомните свойство position: relative, position: absolute, top, left и т.д.)
-Чуть сложнее: внутренний блок не должен выходить за границы внешнего.
-</p>
-    </div>
+    <button id="btnUp">Вверх</button>
+    <button id="btnDown">Вниз</button>
+    <button id="btnLeft">Влево</button>
+    <button id="btnRight">Вправо</button>
 </body>
-
 </html>
